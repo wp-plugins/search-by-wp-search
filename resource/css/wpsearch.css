@@ -1,0 +1,126 @@
+
+.facet_values {border-top:1px solid #E6E6E6;
+               list-style: none outside none;
+               margin: 0;
+}
+
+.facet_values li {border-bottom:1px dotted #E6E6E6; padding:3px 10px 5px 10px;}
+.facet_values li.active {background-color:#F2F2F2;}
+.facet_values li.active a {color:#333; text-decoration:none;}
+.facet_values a {background: url("../images/i.png") 0 -1293px no-repeat;padding-left:20px;padding-right:10px;display:block;}
+.facet_values .remove a {background-position:0 -1137px; color:#C1272D;}
+.facet_values .active a {background-position:0 -1242px; }
+.facet_values .reset a {background-position:0 -1189px;color:#676767;}
+.facet_values em {float:right; font:11px/19px Arial, Helvetica, sans-serif;color:#333;}
+
+.showalldiv{
+    margin-top: 10px;
+}
+
+.facetlabel {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+    font:bold 16px/1.2em Verdana, Geneva, sans-serif;
+    color:#555;
+}
+.activefacettitle{
+    font-weight: bold;
+}
+
+
+
+.wpsearch_taxonomy_facet .show_more {
+    display: block;
+    float: left;
+    font: 11px/15px Arial,Helvetica,sans-serif;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    color: #676767;
+    text-decoration: none;
+}
+
+
+.holy, .clrfix {
+    height: 1%;
+}
+
+
+.clrfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+em.hl {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.wpsearch_results{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.facet_level1{
+    margin-left:15px;
+}
+.facet_level2{
+    margin-left:30px;
+}
+.facet_level3{
+    margin-left:45px;
+}
+.facet_level4{
+    margin-left:60px;
+}
+.facet_level5{
+    margin-left:75px;
+}
+.facet_level6{
+    margin-left:90px;
+}
+
+.wpsearch_main.fullwidth{
+    width:100%;
+}
+.wpsearch_main.with_right_sidebar{
+    width:67%;
+    float: left;
+}
+.wpsearch_main.with_left_sidebar{
+    width:67%;
+    float: right;
+}
+.wpsearch_sidebar{
+    width:33%;
+}
+.wpsearch_sidebar.right_sidebar{
+    float:right;
+}
+.wpsearch_sidebar.left_sidebar{
+    float:left;
+}
+.wpsearch_pagination{
+    margin: 0;
+    text-align: center;
+    clear: both;
+    display: block;
+}
+.wpsearch_pagination .counts_text{
+    margin-top:20px;
+}
+.wpsearch_daterange_facet .daterange_container li{
+    list-style: none;
+}
+.wpsearch_daterange_facet .daterange_container h3{
+    font-size:14px;margin:0px;display:inline-block;
+}
+.wpsearch_search_btn{
+    margin-top:5px
+}
+.wpsearch_search_input{
+    display:inline-block;margin: 0px;
+}
